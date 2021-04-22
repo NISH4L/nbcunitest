@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoProject" verbose="10">
+	<test name="Different Feature Tests">
+		<classes>
+			<class name="com.sample.test.demo.tests.GUIAndUsabilityTest" />
+		</classes>
+	</test>
+</suite>
+
