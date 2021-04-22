@@ -18,7 +18,7 @@ public class GUIAndUsabilityTest extends TestBase {
 	public void pageTitleTest() {
 		String title = driver.getTitle();
 		System.out.println(title);
-		
+	
 		assertEquals(title, "Pizza Order Form");
 	}
 	
@@ -132,9 +132,9 @@ public class GUIAndUsabilityTest extends TestBase {
 		driver.findElement(By.id("placeOrder")).click();
 		//After placing order
 		String expectedMessage = "Thank you for your order! TOTAL: 30 Small 6 Slices - 1 topping";
-    	String actualMessage = driver.findElement(By.xpath("//div[@id='dialog']/p")).getText();
+    		String actualMessage = driver.findElement(By.xpath("//div[@id='dialog']/p")).getText();
     	
-    	assertEquals(expectedMessage,  actualMessage);	
+    		assertEquals(expectedMessage,  actualMessage);	
 	}
 	
 
